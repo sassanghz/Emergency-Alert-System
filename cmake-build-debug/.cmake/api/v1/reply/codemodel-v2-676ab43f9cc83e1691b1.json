@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.28"
+						"string" : "3.10"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "untitled12",
+					"name" : "emergency_alert_system",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "untitled12::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled12-Debug-ba7efbfbbb1245539de3.json",
-					"name" : "untitled12",
+					"id" : "emergency_alert_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-emergency_alert_system-Debug-7fd264f78e42ee30089d.json",
+					"name" : "emergency_alert_system",
 					"projectIndex" : 0
 				}
 			]

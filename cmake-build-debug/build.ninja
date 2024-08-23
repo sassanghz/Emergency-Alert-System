@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: untitled12
+# Project: emergency_alert_system
 # Configurations: Debug
 # =============================================================================
 
@@ -41,55 +41,59 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/sassa/CLionProjects/untitled12/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target untitled12
+# Object build statements for EXECUTABLE target emergency_alert_system
 
 
 #############################################
-# Order-only phony target for untitled12
+# Order-only phony target for emergency_alert_system
 
-build cmake_object_order_depends_target_untitled12: phony || CMakeFiles/untitled12.dir
+build cmake_object_order_depends_target_emergency_alert_system: phony || CMakeFiles/emergency_alert_system.dir
 
-build CMakeFiles/untitled12.dir/src/alert.c.obj: C_COMPILER__untitled12_unscanned_Debug C$:/Users/sassa/CLionProjects/untitled12/src/alert.c || cmake_object_order_depends_target_untitled12
-  DEP_FILE = CMakeFiles\untitled12.dir\src\alert.c.obj.d
+build CMakeFiles/emergency_alert_system.dir/src/contact.c.obj: C_COMPILER__emergency_alert_system_unscanned_Debug C$:/Users/sassa/CLionProjects/untitled12/src/contact.c || cmake_object_order_depends_target_emergency_alert_system
+  DEP_FILE = CMakeFiles\emergency_alert_system.dir\src\contact.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled12.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled12.dir\src
+  INCLUDES = -IC:/Users/sassa/CLionProjects/untitled12/include
+  OBJECT_DIR = CMakeFiles\emergency_alert_system.dir
+  OBJECT_FILE_DIR = CMakeFiles\emergency_alert_system.dir\src
 
-build CMakeFiles/untitled12.dir/src/main.c.obj: C_COMPILER__untitled12_unscanned_Debug C$:/Users/sassa/CLionProjects/untitled12/src/main.c || cmake_object_order_depends_target_untitled12
-  DEP_FILE = CMakeFiles\untitled12.dir\src\main.c.obj.d
+build CMakeFiles/emergency_alert_system.dir/src/alert.c.obj: C_COMPILER__emergency_alert_system_unscanned_Debug C$:/Users/sassa/CLionProjects/untitled12/src/alert.c || cmake_object_order_depends_target_emergency_alert_system
+  DEP_FILE = CMakeFiles\emergency_alert_system.dir\src\alert.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled12.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled12.dir\src
+  INCLUDES = -IC:/Users/sassa/CLionProjects/untitled12/include
+  OBJECT_DIR = CMakeFiles\emergency_alert_system.dir
+  OBJECT_FILE_DIR = CMakeFiles\emergency_alert_system.dir\src
 
-build CMakeFiles/untitled12.dir/src/utils.c.obj: C_COMPILER__untitled12_unscanned_Debug C$:/Users/sassa/CLionProjects/untitled12/src/utils.c || cmake_object_order_depends_target_untitled12
-  DEP_FILE = CMakeFiles\untitled12.dir\src\utils.c.obj.d
+build CMakeFiles/emergency_alert_system.dir/src/utils.c.obj: C_COMPILER__emergency_alert_system_unscanned_Debug C$:/Users/sassa/CLionProjects/untitled12/src/utils.c || cmake_object_order_depends_target_emergency_alert_system
+  DEP_FILE = CMakeFiles\emergency_alert_system.dir\src\utils.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled12.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled12.dir\src
+  INCLUDES = -IC:/Users/sassa/CLionProjects/untitled12/include
+  OBJECT_DIR = CMakeFiles\emergency_alert_system.dir
+  OBJECT_FILE_DIR = CMakeFiles\emergency_alert_system.dir\src
 
-build CMakeFiles/untitled12.dir/src/contact.c.obj: C_COMPILER__untitled12_unscanned_Debug C$:/Users/sassa/CLionProjects/untitled12/src/contact.c || cmake_object_order_depends_target_untitled12
-  DEP_FILE = CMakeFiles\untitled12.dir\src\contact.c.obj.d
+build CMakeFiles/emergency_alert_system.dir/src/main.c.obj: C_COMPILER__emergency_alert_system_unscanned_Debug C$:/Users/sassa/CLionProjects/untitled12/src/main.c || cmake_object_order_depends_target_emergency_alert_system
+  DEP_FILE = CMakeFiles\emergency_alert_system.dir\src\main.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled12.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled12.dir\src
+  INCLUDES = -IC:/Users/sassa/CLionProjects/untitled12/include
+  OBJECT_DIR = CMakeFiles\emergency_alert_system.dir
+  OBJECT_FILE_DIR = CMakeFiles\emergency_alert_system.dir\src
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target untitled12
+# Link build statements for EXECUTABLE target emergency_alert_system
 
 
 #############################################
-# Link the executable untitled12.exe
+# Link the executable emergency_alert_system.exe
 
-build untitled12.exe: C_EXECUTABLE_LINKER__untitled12_Debug CMakeFiles/untitled12.dir/src/alert.c.obj CMakeFiles/untitled12.dir/src/main.c.obj CMakeFiles/untitled12.dir/src/utils.c.obj CMakeFiles/untitled12.dir/src/contact.c.obj
+build emergency_alert_system.exe: C_EXECUTABLE_LINKER__emergency_alert_system_Debug CMakeFiles/emergency_alert_system.dir/src/contact.c.obj CMakeFiles/emergency_alert_system.dir/src/alert.c.obj CMakeFiles/emergency_alert_system.dir/src/utils.c.obj CMakeFiles/emergency_alert_system.dir/src/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\untitled12.dir
+  OBJECT_DIR = CMakeFiles\emergency_alert_system.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = untitled12.exe
-  TARGET_IMPLIB = libuntitled12.dll.a
-  TARGET_PDB = untitled12.exe.dbg
+  TARGET_FILE = emergency_alert_system.exe
+  TARGET_IMPLIB = libemergency_alert_system.dll.a
+  TARGET_PDB = emergency_alert_system.exe.dbg
 
 
 #############################################
@@ -117,7 +121,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build untitled12: phony untitled12.exe
+build emergency_alert_system: phony emergency_alert_system.exe
 
 # =============================================================================
 # Folder targets.
@@ -127,7 +131,7 @@ build untitled12: phony untitled12.exe
 #############################################
 # Folder: C:/Users/sassa/CLionProjects/untitled12/cmake-build-debug
 
-build all: phony untitled12.exe
+build all: phony emergency_alert_system.exe
 
 # =============================================================================
 # Built-in targets

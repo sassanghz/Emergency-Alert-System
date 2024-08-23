@@ -5,4 +5,6 @@
 #ifndef UTILS_H
 #define UTILS_H
 
+// Utility funcstions such as input validation
+
 #endif //UTILS_H
