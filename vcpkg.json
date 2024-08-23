@@ -1,0 +1,21 @@
+{
+  "name" : "emergency-alert-system",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "3508985146f1b1d248c67ead13f8f54be5b4f5da",
+  "dependencies" : [ {
+    "name" : "curl",
+    "version>=" : "8.9.1#1"
+  }, {
+    "name" : "libcurl-simple-https",
+    "version>=" : "2022-02-14"
+  }, {
+    "name" : "vcpkg-cmake-config",
+    "version>=" : "2024-05-23"
+  }, {
+    "name" : "vcpkg-cmake",
+    "version>=" : "2024-04-23"
+  }, {
+    "name" : "zlib",
+    "version>=" : "1.3.1"
+  } ]
+}
